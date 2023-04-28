@@ -1,0 +1,19 @@
+.form {
+  width: 40rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  background-color: white;
+  border-top: 5px solid blue;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+.img {
+  width: 8rem;
+  border-radius: 5px;
+}
+.error {
+  color: red;
+}

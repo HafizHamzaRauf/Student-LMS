@@ -1,0 +1,25 @@
+.body {
+  display: flex;
+  margin: 14rem auto;
+  width: 100rem;
+  gap: 10rem;
+}
+
+.body-img {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 4px;
+}
+
+.text {
+  font-size: 2rem;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.cclass {
+  align-self: flex-start;
+}

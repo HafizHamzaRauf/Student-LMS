@@ -1,0 +1,19 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 4rem;
+}
+.navigation-links {
+  display: flex;
+  gap: 1rem;
+}
+.links {
+  font-size: 2rem;
+  text-decoration: none;
+  color: blue;
+}
+
+.img {
+  width: 8rem;
+}
