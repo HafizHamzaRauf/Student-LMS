@@ -1,0 +1,20 @@
+.navigation {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+}
+.img {
+  width: 10rem;
+  border-radius: 4px;
+}
+.links {
+  text-decoration: none;
+  font-size: 2rem;
+  color: blue;
+}
+.navigation-links {
+  display: flex;
+  gap: 2rem;
+}

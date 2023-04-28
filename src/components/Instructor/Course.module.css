@@ -1,0 +1,16 @@
+.name {
+}
+.code {
+}
+.course {
+  background-color: white;
+  padding: 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.course:hover {
+  cursor: pointer;
+  background-color: rgb(118, 140, 160);
+}

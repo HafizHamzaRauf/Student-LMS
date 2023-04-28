@@ -1,0 +1,12 @@
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+.course-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.img {
+  border-radius: 5px;
+}
