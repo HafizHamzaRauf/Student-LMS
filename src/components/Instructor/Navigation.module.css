@@ -18,3 +18,9 @@
   display: flex;
   gap: 2rem;
 }
+
+.dashboard-heading {
+  font-size: 2rem;
+  color: rgb(135, 152, 230);
+  font-weight: bold;
+}
