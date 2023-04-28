@@ -2,23 +2,15 @@ import React, { useState } from "react";
 import { Button } from "./Button";
 import classes from "./Register.module.css";
 export const Login = () => {
-  const [userType, setUserType] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const [error, setError] = useState(false);
-  const handleUserTypeChange = (event) => {
-    setUserType(event.target.value);
-  };
 
   const formHandler = (e) => {
     e.preventDefault();
     //perform validation
-    if (
-      email.trim() === "" ||
-      password.trim() === "" ||
-      userType.trim() === ""
-    ) {
+    if (email.trim() === "" || password.trim() === "") {
       setError(true);
       return;
     }
@@ -53,14 +45,6 @@ export const Login = () => {
         />
       </div>
 
-      <label>
-        Are you an instructor or a student?
-        <select value={userType} onChange={handleUserTypeChange}>
-          <option value="">Please select</option>
-          <option value="instructor">Instructor</option>
-          <option value="student">Student</option>
-        </select>
-      </label>
       <Button>Login</Button>
     </form>
   );

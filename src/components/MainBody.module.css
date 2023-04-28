@@ -22,4 +22,10 @@
 
 .cclass {
   align-self: flex-start;
+  background-color: blue !important;
+  color: white;
+  border-radius: 3px;
+}
+.cclass:hover {
+  background-color: rgb(45, 45, 94) !important;
 }

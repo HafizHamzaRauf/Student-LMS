@@ -1,7 +1,12 @@
 import React from "react";
 import classes from "./MainBody.module.css";
 import { Button } from "./Button";
+import { useNavigate } from "react-router-dom";
 export const MainBody = () => {
+  const navigate = useNavigate();
+  const startHandler = () => {
+    navigate("/register");
+  };
   return (
     <div className={classes.body}>
       <div className={classes.section}>
@@ -11,7 +16,9 @@ export const MainBody = () => {
           potential and achieve your learning goals. Join our community of
           lifelong learners today!
         </p>
-        <Button cclass={classes.btn}>Start Now</Button>
+        <Button onClick={startHandler} cclass={classes.cclass}>
+          Start Now
+        </Button>
       </div>
       <img
         className={classes["body-img"]}
